@@ -18,4 +18,8 @@ console.log("Country name: "+COUNTRY);
 console.log("Continent name: "+CONTINENT);
 console.log("Language: "+ LANGUAGE);
 console.log("Is an island: "+ IS_ILAND);
+console.log("Population: "+population);
 console.log("The population devided by 2 is: "+(population/2));
+console.log("New citizen has been born. New population: "+(population+1));
+console.log("Germany has "+ (population-6000000)+" citizens more than Finland which only has 6 Million");
+console.log("Germany is in Europe, and its 84 Million people speak german.");
