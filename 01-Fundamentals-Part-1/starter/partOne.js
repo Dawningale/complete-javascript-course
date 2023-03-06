@@ -6,7 +6,8 @@ const COUNTRY = "Germany";
 const CONTINENT = "Europe";
 const LANGUAGE = "German";
 const IS_ILAND = false;
-const description = `${COUNTRY} is a country in ${CONTINENT}. Its ${population} citizens speak ${LANGUAGE}.\n${COUNTRY} has ${population - 6000000} more people than Finland`;
+const description = `${COUNTRY} is a country in ${CONTINENT}. Its ${population} citizens speak ${LANGUAGE}.
+${COUNTRY} has ${population - 6000000} more people than Finland`;
 /*
 Country, continent, language and is_island are constants because they won't change in unforeseen future or perhaps never.
 
