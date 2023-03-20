@@ -20,6 +20,6 @@ const person2 = {
 };
 
 //VARIABLES
-const out = `${person1.name} (${person1.height}m,${person1.mass}kg,BMI of ${person1.bmi()}) has a higher BMI than ${person2.name} (${person2.height}m,${person2.mass}kg,BMI of ${person2.bmi()}): ${person1.bmi() > person2.bmi()}`;
+const out = `${person1.name} (${person1.height}m,${person1.mass}kg,${person1.bmi()}BMI) has a higher BMI than ${person2.name} (${person2.height}m,${person2.mass}kg,${person2.bmi()}BMI): ${person1.bmi() > person2.bmi()}`;
 
 console.log(out);
